@@ -11,8 +11,8 @@ import io.ktor.client.request.patch
 
 object NearbyRemoteDataSource {
 
-    private const val LOCAL_HOST_EMULATOR_BASE_URL = "http://192.168.100.127:3333"
-    private const val LOCAL_HOST_PHYSICAL_BASE_URL = "http://192.168.100.1:3333"
+    private const val LOCAL_HOST_EMULATOR_BASE_URL = "http://10.0.2.2:3333"
+    private const val LOCAL_HOST_PHYSICAL_BASE_URL = "http://SEU_SUB_DOMINIO_AQUI:3333"
 
     private const val BASE_URL = LOCAL_HOST_EMULATOR_BASE_URL
 
